@@ -12,7 +12,7 @@
       "Tooltip": null,
       "Placeholder": null,
       "Widget": null,
-      "IsRequired": false,
+      "IsRequired": true,
       "IsPrincipal": true,
       "ArgumentType": 0,
       "DataSourceItems": null
@@ -24,7 +24,7 @@
       "Tooltip": null,
       "Placeholder": null,
       "Widget": null,
-      "IsRequired": false,
+      "IsRequired": true,
       "IsPrincipal": true,
       "ArgumentType": 0,
       "DataSourceItems": null

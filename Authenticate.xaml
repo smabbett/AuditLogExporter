@@ -109,7 +109,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Authenticate" sap:VirtualizedContainerService.HintSize="1259.2,1109.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Authenticate" sap:VirtualizedContainerService.HintSize="875.2,935.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="response" />
       <Variable x:TypeArguments="njl:JObject" Name="JsonObj" />
@@ -127,7 +127,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Client ID: &quot; + in_clientID + Environment.NewLine + &quot;Client Secret: &quot; + in_clientSecret + Environment.NewLine + &quot;Environment URL: &quot; + in_environmentURL]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[in_environmentURL + &quot;/identity_/connect/token&quot;]" />
     <ui:HttpClient Body="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" Username="{x:Null}" AcceptFormat="ANY" AuthenticationType="None" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="[in_environmentURL + &quot;/identity_/connect/token&quot;]" sap:VirtualizedContainerService.HintSize="433.6,103.2" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="POST" Result="[response]" StatusCode="[responseStatus]" TimeoutMS="6000">
       <ui:HttpClient.Attachments>
